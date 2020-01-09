@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-
-nix-build tsbot.nix
-cp -f result/bin/tsbot .
-
-nix-build scraper.nix
-cp -f result/bin/scraper .
-
-rm result
