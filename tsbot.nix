@@ -4,8 +4,8 @@ import (
   pkgs.fetchFromGitHub {
     owner = "justinwoo";
     repo = "tsbot";
-    rev = "02bf172c6afa7e8ca864e0380235c6ab6d32d73a";
-    sha256 = "11qd4ccxmsibf0x8ffwarivjjh213bzxr7kfwv0prwfndz88w82h";
+    rev = "76a68aef33d7261168f760c4ff0a4b8867e75aa8";
+    sha256 = "0lyjgbikwqnkb3qp58492hnahhrcfzg4i0zkbhia7f7jq7657zyr";
   }
 ) {
   inherit pkgs;

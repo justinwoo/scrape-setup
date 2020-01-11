@@ -4,8 +4,8 @@ import (
   pkgs.fetchFromGitHub {
     owner = "justinwoo";
     repo = "scraper";
-    rev = "5f456e00dad31ca9615d9d93e9aff5970afcf03d";
-    sha256 = "0pn2nxlhaj1420hxfq08gsmc88p95svd1n24hw0y22wzf1k313fg";
+    rev = "5da9be7f4ac46f0cb6bb3e10baa72677dd87d9e0";
+    sha256 = "198mns0nyzfipk2kr0l500xvf6h9yz0bii4xs79sfss8gyqflp48";
   }
 ) {
   inherit pkgs;
